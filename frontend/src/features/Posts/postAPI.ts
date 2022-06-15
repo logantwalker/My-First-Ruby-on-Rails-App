@@ -9,7 +9,7 @@ export async function fetchPosts () {
             "Content-Type": "application/json"
         }
     }).then(response =>{
-        console.log(response)
+        
         return response.json()
     }).catch(error => {
         console.log("Error:", error)
