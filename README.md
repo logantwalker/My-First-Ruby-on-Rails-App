@@ -1,13 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my first App built with Ruby on Rails. I am following a tutorial that can be found here: https://www.youtube.com/watch?v=ZGnMqKg-Cq4
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version -> ruby 2.7.6p219
 
-* System dependencies
+* System dependencies -> Typescript, React, React-Redux, Immer
 
 * Configuration
 
