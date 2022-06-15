@@ -10,7 +10,7 @@ export async function fetchPosts () {
         }
     }).then(response =>{
         console.log(response)
-        response.json()
+        return response.json()
     }).catch(error => {
         console.log("Error:", error)
         return {} as PostsState;
