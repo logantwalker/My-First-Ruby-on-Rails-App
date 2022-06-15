@@ -1,12 +1,13 @@
 import React, {useState} from "react";
 import { useDispatch } from "react-redux";
+import { createPostAsync } from "./postSlice";
 
 function PostForm(){
     const dispatch: AppDispatch = useDispatch()
     const [title, setTitle] = useState('');
     const [body, setBody] = useState('');
 
-    const submitHandler = (e) =>{
+    const submitHandler = (e: any) =>{
         e.preventDefault();
 
         const formData = {
